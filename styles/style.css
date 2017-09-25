@@ -1,0 +1,143 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 18px;
+  padding: 20px 0px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 0px 125px 0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover{
+	background-color: #ff6d37;
+}
+
+.button:active{
+	background-color: #f4511e;
+}
+
+#header{
+	width: 100%;
+	height: 80px;
+	background-color: #333333;
+	position: fixed;
+	top: 0px;
+}
+
+#nav{
+	width: 1100px;	
+	height: 80px;
+}
+
+#nav img{
+	float: left;
+	padding-left: 30px;
+}
+
+#nav ul{
+    width: 400px;
+    height: 80px;
+	float: right;
+    list-style: none;	
+}
+
+#nav li{
+	text-align: center;
+	display: inline-block;
+	padding: 25px 5px 0px 0px;	
+}
+
+#nav img{
+	padding-top: 15px;
+}
+
+#welcome-page{
+	padding: 100px 0px 0px 0px;
+}
+
+#shadow{
+	width: 1304px;
+	height: 5px;
+	padding-top: 81px;
+	background-color: #c45357;
+}
+
+a{
+    color: white;
+	text-decoration: none;
+	font-family: Trebuchet MS;
+	padding: 45px 16px;
+}
+
+a:hover{
+	color: white;
+}
+		
+ul li:hover{
+	height: 55px;
+	background-color: gray;
+}
+
+#bt-knowmore:hover{
+	background-color: gray;
+}
+
+ul li:active{
+    background-color: black;
+}
+
+#me-hi{
+	padding: 37px 37px 37px 37px;
+}
+
+#footer{
+	width: 100%;
+	height: 47px;
+	color: white;
+	position: absolute;
+	background-color: #333333;
+}
+
+#footer p{
+	text-align: center;
+	padding: 20px 0px 0px 5px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color:gray;
+}
