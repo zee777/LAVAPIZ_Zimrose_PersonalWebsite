@@ -116,6 +116,20 @@ ul li:active{
 	height: 807px;
 }
 
+#me img{
+	float: left;
+	padding: 100px;
+}
+
+#me-desc{
+	float: right;
+	width: 500px;
+	height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 100px 25px 0px 0px;
+}
+
 #works{
 	background-color: white;
 	width: 100%;
@@ -129,8 +143,8 @@ ul li:active{
 }
 
 div.gallery {
-    margin: 100px 5px 0px 25px;
-    border: 1px solid #ccc;
+    margin: 100px 5px 0px 20px;
+    border: 3px solid #ccc;
 	border-radius: 15px;
     float: left;
     width: 180px;
