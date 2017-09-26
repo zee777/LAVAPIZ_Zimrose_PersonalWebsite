@@ -128,6 +128,31 @@ ul li:active{
 	height: 600px;
 }
 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+	border-radius: 15px;
+    float: left;
+    width: 180px;
+	background-color: #333333;
+	color: white;
+}
+
+div.gallery:hover {
+    border: 3px solid #f3ac3a;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+	font-family: Trebuchet MS;
+    text-align: center;
+}
+
 #footer{
 	width: 100%;
 	height: 47px;
