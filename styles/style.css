@@ -118,16 +118,24 @@ ul li:active{
 
 #me img{
 	float: left;
-	padding: 100px;
+	padding: 100px 90px;
+	
+}
+
+#personal{
+	width: 500px;
+	height: 807px;
+	float:	left;
+	background-color: #23bdc7;
 }
 
 #me-desc{
 	float: right;
-	width: 500px;
-	height: 200px;
+	width: 700px;
+	height: 515px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	margin: 100px 25px 0px 0px;
+	margin: 120px 50px 0px 0px;
 }
 
 #works{
