@@ -106,7 +106,7 @@ ul li:active{
 	height: 1000px;
 	float:	left;
 	color: white;
-	background-color: #a1c679;
+	background-color: white;
 }
 
 #personal h2{
@@ -161,7 +161,7 @@ div.list-style2{
 #works{
 	background-color: #c0d89c;
 	width: 100%;
-	height: 700px;
+	height: 10	00px;
 }
 
 #say-hi{
