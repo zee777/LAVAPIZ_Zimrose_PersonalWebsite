@@ -33,6 +33,32 @@
 	transform: translateY(4px);
 }
 
+.button1{
+	display: inline-block;
+	padding: 20px 30px;
+	cursor: pointer;
+	outline: none;
+	background-color: #ffa757;
+	border: none;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+.button1 a{
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.button1:hover {
+	background-color: #ffa757;
+}
+
+.button1:active {
+	background-color: orange;
+}
 #welcome-page{
 	padding: 100px 0px 0px 0px;
 }
@@ -97,7 +123,7 @@ ul li:active{
 
 #me img{
 	float: left;
-	padding: 120px 60px 50px 60px;
+	padding: 85px 60px 50px 60px;
 	
 }
 
@@ -130,7 +156,7 @@ ul li:active{
 
 hr{
 	border-bottom-color: white;
-	width: 370px;
+	width: 390px;
 	float: left;
 }
 
@@ -149,7 +175,7 @@ hr{
 div.list-style{
 	font-family: Calibri;
 	font-size: 20px;
-	margin-left: 25px;
+	margin-left: 15px;
 	list-style: none;
 }
 
@@ -160,6 +186,22 @@ div.list-style2{
 	list-style: bullet;
 }
 
+#curriculum-vitae{
+	width: 400px;
+	height: 500px;
+	border: 2px solid #97b76c;
+	margin: 100px 0px 0px 50px;
+	border-radius: 5px;	
+}
+
+#curriculum-vitae p{
+	font-family: Seasider;
+	font-size: 50px;
+	color: 97b76c;
+	text-align: center;
+	padding-top: 10px;
+	
+}
 
 #me-desc{
 	float: right;
@@ -204,6 +246,7 @@ div.desc {
 	font-size: 13px;
     text-align: center;
 }
+
 
 #footer{
 	width: 100%;
