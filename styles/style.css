@@ -187,14 +187,33 @@ div.list-style2{
 }
 
 #curriculum-vitae{
-	width: 400px;
+	width: 360px;
 	height: 500px;
 	border: 2px solid #97b76c;
-	margin: 100px 0px 0px 50px;
+	margin: 100px 35px 0px 30px;
 	border-radius: 5px;	
+	float: left;
 }
 
 #curriculum-vitae p{
+	font-family: Seasider;
+	font-size: 50px;
+	color: 97b76c;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+#personal-interest{
+	width: 360px;
+	height: 500px;
+	border: 2px solid #97b76c;
+	margin: 100px 35px 0px 30px;
+	border-radius: 5px;	
+	float: right;
+}
+
+#personal-interest p{
 	font-family: Seasider;
 	font-size: 50px;
 	color: 97b76c;
