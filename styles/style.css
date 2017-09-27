@@ -109,6 +109,10 @@ ul li:active{
 	background-color: #333333;
 }
 
+#personal h2{
+	color: #23bdc7;
+}
+
 #other-info{
 	width: 840px;
 	height: 707px;
