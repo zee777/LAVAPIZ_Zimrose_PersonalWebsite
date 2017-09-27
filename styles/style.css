@@ -90,9 +90,9 @@ ul li:active{
 }
 
 #me{
-	background-color: #fcfcac;
+	background-color: #c0d89c;
 	width: 100%;
-	height: 1100px;
+	height: 2500px;
 }
 
 #me img{
@@ -103,7 +103,7 @@ ul li:active{
 
 #personal{
 	width: 425px;
-	height: 1100px;
+	height: 708px;
 	float:	left;
 	color: #333333;
 	background-color: white;
@@ -113,8 +113,15 @@ ul li:active{
 	color: #f3e8a8;
 }
 
+#navigations{
+	width: 862px;
+	height: 708px;
+	background-color: #fcfcac;
+	float: right; 
+}
+
 #other-info{
-	width: 840px;
+	width: 100%;
 	height: 708px;
 	color: #333333;
 	float: right; 
