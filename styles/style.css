@@ -124,10 +124,10 @@ ul li:active{
 }
 
 #other-info{
-	width: 800px;
+	width: 1070px;
 	height: 708px;
 	color: #333333;
-	padding-top: 100px;
+	padding-top: 80px;
 	float:left;
 }
 
@@ -211,11 +211,12 @@ div.list-style2{
 	padding-top: 150px;
 }
 
-#educ img{
+.nav{
 	float: right;
 	padding-right: 0px;
 	margin-right: 0px;
 }
+
 #skills{
 	padding-top: 150px;
 }
@@ -316,6 +317,10 @@ div.gallery img {
 	padding: 250px 100px;
 }
 
+#icons a{
+	width: 1286px;
+	
+}
 
 #footer{
 	width: 100%;
