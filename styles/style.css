@@ -91,11 +91,11 @@ ul li:active{
 
 #me{
 	background-color: #c0d89c;
-	width: 100%;
+	width: 1286px;
 	height: 3000px;
 }
 
-#me img{
+#personal img{
 	float: left;
 	padding: 85px 60px 50px 60px;
 	
@@ -104,8 +104,8 @@ ul li:active{
 #personal{
 	width: 425px;
 	height: 708px;
-	float:	left;
 	color: #333333;
+	float: left;
 	background-color: white;
 }
 
@@ -114,10 +114,11 @@ ul li:active{
 }
 
 #navigations{
-	width: 862px;
+	width: 861px;
 	height: 708px;
 	background-color: #fcfcac;
-	float: right; 
+	margin-top: 0px;
+	float: right;
 }
 
 #other-info{
@@ -125,7 +126,7 @@ ul li:active{
 	height: 708px;
 	color: #333333;
 	padding-top: 100px;
-	float: left;
+	float:left;
 }
 
 hr{
@@ -201,10 +202,17 @@ div.list-style2{
 	width: 200px;
 	height: 50px;	
 }
+
 #educ{
+	width: 100%;
 	padding-top: 150px;
 }
 
+#educ img{
+	float: right;
+	padding-right: 0px;
+	margin-right: 0px;
+}
 #skills{
 	padding-top: 150px;
 }
