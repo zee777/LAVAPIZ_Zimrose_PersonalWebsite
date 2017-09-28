@@ -38,22 +38,21 @@
 	padding: 20px 30px;
 	cursor: pointer;
 	outline: none;
-	background-color: #ffa757;
+	background-color: #f9e46b;
 	border: none;
-	border-radius: 10px;
 	margin-top: 15px;
 }
 
 .button1 a{
-	font-family: Trebuchet MS;
-	font-size: 24px;
+	font-family: Calibri;
+	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #514b3f;
 }
 
 .button1:hover {
-	background-color: #ffa757;
+	background-color: #febb7f;
 }
 
 .button1:active {
@@ -147,11 +146,11 @@ ul li:active{
 }
 
 #other-info{
-	width: 100%;
+	width: 800px;
 	height: 708px;
 	color: #333333;
-	float: right; 
-	margin-top: 100px;
+	padding-top: 100px;
+	float: left;
 }
 
 hr{
@@ -163,8 +162,7 @@ hr{
 #other-info hr{
 	border-bottom-color: #333333;
 	margin: 10px 0px 10px 0px;
-	width: 790px;
-	float: left;
+	width: 800px;
 }
 
 #other-info p{
@@ -182,43 +180,41 @@ div.list-style{
 div.list-style2{
 	font-family: Calibri;
 	font-size: 20px;
-	margin-left: 25px;
+	margin-left: 250px;
 	list-style: bullet;
 }
 
 #curriculum-vitae{
-	width: 360px;
+	width: 380px;
 	height: 500px;
-	border: 2px solid #97b76c;
+	border-right: 1px solid #514b3f;
 	margin: 100px 35px 0px 30px;
-	border-radius: 5px;	
 	float: left;
 }
 
 #curriculum-vitae p{
 	font-family: Seasider;
 	font-size: 50px;
-	color: 97b76c;
+	color: #514b3f;
 	text-align: center;
 	padding-top: 10px;
 	
 }
 
 #personal-interest{
-	width: 360px;
+	width: 300px;
 	height: 500px;
-	border: 2px solid #97b76c;
 	margin: 100px 35px 0px 30px;
-	border-radius: 5px;	
-	float: right;
+	float: left;
 }
 
 #personal-interest p{
 	font-family: Seasider;
 	font-size: 50px;
-	color: 97b76c;
+	color: #514b3f;
 	text-align: center;
 	padding-top: 10px;
+	padding-bottom: 150px;
 	
 }
 
