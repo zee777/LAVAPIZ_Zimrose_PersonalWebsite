@@ -93,7 +93,7 @@ ul li:active{
 #me{
 	background-color: #c0d89c;
 	width: 1286px;
-	height: 3000px;
+	height: 3200px;
 }
 
 #personal img{
@@ -171,7 +171,7 @@ div.list-style2{
 
 #curriculum-vitae p{
 	font-family: Seasider;
-	font-size: 50px;
+	font-size: 40px;
 	color: #514b3f;
 	text-align: center;
 	padding-top: 10px;
@@ -186,17 +186,17 @@ div.list-style2{
 .cv a{
 	text-decoration: none;
 	font-family: Arial;
-	font-size: 24px;
+	font-size: 18px;
 	color: white;
 	padding: 20px 25px;
 }
 
 .cv li{
 	width: 200px;
-	height: 50px;	
+	height: 40px;	
 	padding-top: 20px;
 	margin: 20px 90px;
-	border-radius: 10px;
+	border-radius: 0px;
 	background-color: ffa757;
 }
 
@@ -237,7 +237,7 @@ div.list-style2{
 
 #personal-interest p{
 	font-family: Seasider;
-	font-size: 50px;
+	font-size: 40px;
 	color: #514b3f;
 	text-align: center;
 	padding-top: 10px;
@@ -247,6 +247,12 @@ div.list-style2{
 
 #me-desc{
 	float: right;
+}
+
+#take-a-peak{
+	width: 1286px;
+	height: 800px;
+	background-color: white;
 }
 
 #works{
