@@ -250,9 +250,65 @@ div.list-style2{
 }
 
 #take-a-peak{
-	width: 1286px;
+	width: 1287px;
 	height: 800px;
 	background-color: white;
+}
+
+#squad{
+	width: 510px;
+	height: 800px;
+	background-color: black;
+	float: left;
+}
+
+.slider-container{
+	height: 390px;
+	width: 465px;
+	position: relative;
+	margin-left: 0px;
+	overflow: hidden; 
+	text-align: center;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  z-index: 900;
+  width: 397px;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+  &:hover {
+    background: red;
+  }
+}
+
+.slide {
+  width: 397px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 800px;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: right 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+  right: 0;
+  z-index: 100;
+  transition: right .65s ease-out;
 }
 
 #works{
@@ -262,8 +318,8 @@ div.list-style2{
 }
 
 #say-hi{
+	width: 1286px;
 	background-color: #333333;
-	width: 100%;
 	height: 600px;
 }
 
