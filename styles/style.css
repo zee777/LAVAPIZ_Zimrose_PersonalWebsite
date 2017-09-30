@@ -76,12 +76,12 @@
 	background-color: #504f4f;
 }
 		
-ul li:hover{
+#header ul li:hover{
 	height: 65px;
 	background-color: gray;
 }
 
-ul li:active{
+#header ul li:active{
     background-color: black;
 }
 
@@ -93,7 +93,7 @@ ul li:active{
 #me{
 	background-color: #fbf5b8;
 	width: 1286px;
-	height: 3200px;
+	height: 4200px;
 }
 
 #personal img{
@@ -148,14 +148,14 @@ hr{
 }
 
 div.list-style{
-	font-family: Calibri;
+	font-family: Tekton Pro;
 	font-size: 16px;
 	margin-left: 35px;
 	list-style: none;
 }
 
 div.list-style2{
-	font-family: Calibri;
+	font-family: Tekton Pro;
 	font-size: 20px;
 	margin-left: 250px;
 	list-style: bullet;
@@ -185,7 +185,7 @@ div.list-style2{
 
 .cv a{
 	text-decoration: none;
-	font-family: Arial;
+	font-family: Tekton Pro;
 	font-size: 18px;
 	color: white;
 	padding: 20px 25px;
@@ -204,6 +204,10 @@ div.list-style2{
 	width: 200px;
 	height: 40px;	
 	background-color: #24a86f;
+}
+
+#awards{
+	padding-top: 150px;
 }
 
 #educ{
@@ -253,7 +257,7 @@ div.list-style2{
 #take-a-peak{
 	width: 1287px;
 	height: 1500px;
-	background-color: #38b87c;
+	background-color: #83d3ee;
 }
 
 #take-a-peak p{
@@ -261,6 +265,46 @@ div.list-style2{
 	font-size: 80px;
 	color: white;
 	padding-top: 10px;
+}
+
+#photo{
+	padding-top: 100px;
+	width: 1250px;
+	height: 1500px;
+}
+
+#baby-photos{
+	float: left;
+	width: 550px;
+	height: 370px;
+	padding-left: 25px;
+}
+
+#myself-desc{
+	width: 250px;
+	height: 370px;
+	float: left;
+	padding-left: 20px;
+	margin-left: 20px;
+	background-color: white;
+}
+
+#myself-desc p{
+	font-family: Tekton Pro;
+	font-size: 20px;
+	float: right;
+	color: #1c242b;
+	padding: 10px 10px 0px 0px;
+}
+
+#myself-desc li{
+	font-family: Tekton Pro;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#myself-desc ul{
+	padding-top: 15px;
 }
 
 #squad{
@@ -271,7 +315,7 @@ div.list-style2{
 }
 
 #squad h2{
-	font-family: Seasider;
+	font-family: Tekton Pro;
 	color: white;
 	font-size: 40px;
 	text-align: center;
