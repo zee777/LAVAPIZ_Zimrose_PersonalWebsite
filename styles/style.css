@@ -256,7 +256,7 @@ div.list-style2{
 
 #take-a-peak{
 	width: 1287px;
-	height: 1500px;
+	height: 1000px;
 	background-color: #83d3ee;
 }
 
@@ -271,6 +271,15 @@ div.list-style2{
 	padding-top: 100px;
 	width: 1250px;
 	height: 1500px;
+}
+
+
+#squad{
+	margin-top: 20px;
+	width: 846px;
+	height: 437px;
+	background-color: white;
+	float: right;
 }
 
 #baby-photos{
@@ -307,14 +316,14 @@ div.list-style2{
 	padding-top: 15px;
 }
 
-#squad{
+#left-pane{
 	width: 400px;
-	height: 1500px;
+	height: 1000px;
 	background-color: #313841;
 	float: left;
 }
 
-#squad h2{
+#left-pane h2{
 	font-family: Tekton Pro;
 	color: white;
 	font-size: 40px;
@@ -328,6 +337,13 @@ div.list-style2{
 	height: 1000px;
 }
 
+#works h2{
+	font-family: Seasider; 
+	font-size: 60px; 
+	color: white;
+	padding-top: 100px;
+	
+}
 #say-hi{
 	width: 1287px;
 	background-color: #333333;
